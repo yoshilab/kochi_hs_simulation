@@ -29,10 +29,10 @@ def simulation(speed,degree,color,g):
 # ここからプログラム開始
 
 # 投げ上げ角度を変えながらシミュレーションを行い，色を変えてプロット
-simulation(speed=162, degree=70, color="red", g=9.8) # 初速v0=150キロ, 角度70度, 重力加速度g=9.8 の投げ上げを赤でプロット
-simulation(speed=162, degree=60, color="purple", g=9.8) # 初速v0=150キロ, 角度60度, 重力加速度g=9.8 の投げ上げを赤でプロット
-simulation(speed=162, degree=45, color="gray", g=9.8) # 初速v0=150キロ, 角度45度, 重力加速度g=9.8 の投げ上げを赤でプロット
-simulation(speed=162, degree=30, color="orange", g=9.8) # 初速v0=150キロ, 角度30度, 重力加速度g=9.8 の投げ上げを赤でプロット
+simulation(speed=162, degree=80, color="red", g=9.8) # 初速v0=162キロ, 角度80度, 重力加速度g=9.8 の投げ上げを赤でプロット
+simulation(speed=162, degree=60, color="purple", g=9.8) # 初速v0=162キロ, 角度60度, 重力加速度g=9.8 の投げ上げを赤でプロット
+simulation(speed=162, degree=30, color="gray", g=9.8) # 初速v0=162キロ, 角度30度, 重力加速度g=9.8 の投げ上げを赤でプロット
+simulation(speed=162, degree=10, color="orange", g=9.8) # 初速v0=162キロ, 角度10度, 重力加速度g=9.8 の投げ上げを赤でプロット
 
 # グラフ描画
 plt.gca().set_aspect("equal", adjustable="box") #アスペクト（縦横比）を1:1に
