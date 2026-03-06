@@ -7,9 +7,9 @@ import matplotlib.pyplot as plt
 time_c = 5.0      # 次の客(customer)が来るまでの平均時間(分)
 time_s = 1.0      # 平均的なレジのサービス時間(service)(分)
 
-t = 0
-tc = 0
-n = 0
+t = 0      # 時刻t
+tc = 0     # 次の客が来るまでの時間(乱数で決まる)
+n = 0      # 現在のレジで待つ人数
 
 t_all=[ ]   # 行列の人数が変化する時刻
 n_all=[ ]   # 行列の人数
